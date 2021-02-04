@@ -1,0 +1,15 @@
+
+.wrapper {
+    height: 150vh;
+    width: 900px;
+    display: flex;
+    flex-wrap: wrap;
+    border: 2px solid lightblue;
+    margin: auto;
+}
+.search {
+  margin: auto;
+  width: 200px;
+  margin-bottom: 30px;
+  margin-top: 20px;
+}

@@ -1,0 +1,52 @@
+.card_wrapper{
+    height: 250px;
+    width: 230px;
+    margin: 40px 0 0 53px;
+    .card_img{
+        width: 100%;
+        height: 130px;
+        border: 1px solid lightblue;
+    }
+    .card_footer {
+        .first_column{
+            border: 1px solid lightblue;
+            .like{
+                color: lightblue;
+                margin-left: 10px;
+                margin-right: 10px;
+            }
+            .like-text{
+                font-size: 13px;
+                color: lightblue;
+                text-decoration: underline;
+                cursor: pointer;
+            }
+            .category{
+                color: lightblue;
+                float: right;
+            }
+        }
+        .second_column{
+            border: 1px solid lightblue;
+            .input_comment{
+                width: 70%;
+                margin-right: 6px;
+            }
+            .post {
+                background: lightblue;
+                font-size: 13px;
+                margin-left: 8px;
+                cursor: pointer;
+            }
+        }
+        .third_column{
+            border: 1px solid lightblue;
+            height: 104px;
+            overflow: scroll;
+            .comment-text{
+                border: 1px solid blue;
+                background: lightblue;
+            }
+        }
+    }
+}
