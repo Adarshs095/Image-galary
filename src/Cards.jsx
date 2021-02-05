@@ -32,6 +32,7 @@ const Cards = (props) =>{
         newComment(e.target.value);
     }
     const postComment =()=>{
+        if(comment == "") return;
         poComment((oldValue)=>{
             return [comment, ...oldValue]
         });
